@@ -21,14 +21,14 @@ html {
 
 body {
   font-family: 'Crimson Pro', serif;
-  max-width: 60rem;
+  max-width: 55rem;
   font-weight: 400;
   margin: auto;
   margin-top: 8rem;
 }
 
 p.landing {
-  font-size: 400%;
+  font-size: 3rem;
 }
 
 figure {
@@ -40,13 +40,13 @@ figure {
 }
 
 img {
-
   display: block;
-  max-width:17em;
-  max-height:17em;
+  max-width:13rem;
+  max-height:13rem;
   width: auto;
   height: auto;
 }
+
 
 .tint {
   position: relative;
@@ -65,9 +65,13 @@ img {
   background: #cc550060;
 }
 
+p.contact.block {
+  font-family: 'Courier New', Courier, monospace;  
+  font-size: 1.2rem;
+}
 
 p.block {
-  font-size: 300%;
+  font-size: 2rem;
 }
 
 a {
