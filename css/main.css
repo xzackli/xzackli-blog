@@ -21,6 +21,7 @@ html {
 
 body {
   font-family: 'Crimson Pro', serif;
+  color: black;
   max-width: 55rem;
   font-weight: 400;
   margin: auto;
@@ -28,7 +29,14 @@ body {
 }
 
 p.landing {
-  font-size: 2rem;
+  font-size: 1.5rem;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 figure {
@@ -42,10 +50,29 @@ figure {
 
 img {
   display: block;
-  max-width:4rem;
-  max-height:4rem;
+  max-width:5rem;
+  max-height:5rem;
   width: auto;
   height: auto;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
 }
 
 
